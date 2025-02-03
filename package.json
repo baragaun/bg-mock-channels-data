@@ -1,0 +1,13 @@
+{
+  "name": "@baragaun/bg-mock-channels-data",
+  "version": "0.0.1",
+  "description": "Mock data provider for a Channels UI component.",
+  "main": "index.js",
+  "repository": "git@github.com:baragaun/bg-mock-channels-data.git",
+  "author": "shadowbrush <github@shadowbrush.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "faker": "^6.6.6"
+  }
+}
