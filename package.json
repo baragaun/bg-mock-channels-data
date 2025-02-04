@@ -2,12 +2,37 @@
   "name": "@baragaun/bg-mock-channels-data",
   "version": "0.0.1",
   "description": "Mock data provider for a Channels UI component.",
-  "main": "index.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "repository": "git@github.com:baragaun/bg-mock-channels-data.git",
   "author": "shadowbrush <github@shadowbrush.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
   "dependencies": {
-    "faker": "^6.6.6"
+    "@faker-js/faker": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.5",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
   }
 }
