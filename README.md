@@ -4,14 +4,31 @@ Mock channels data provider for testing channel UI components. This package prov
 
 ## Installation
 
-Using npm:
+### From npm registry (main branch):
 ```bash
+# Using npm
 npm install @baragaun/bg-mock-channels-data
+
+# Using yarn
+yarn add @baragaun/bg-mock-channels-data
 ```
 
-Using yarn:
+### From specific branch:
 ```bash
-yarn add @baragaun/bg-mock-channels-data
+# Using npm
+npm install baragaun/bg-mock-channels-data#branch-name
+# or
+npm install git+https://github.com/baragaun/bg-mock-channels-data.git#branch-name
+
+# Using yarn
+yarn add baragaun/bg-mock-channels-data#branch-name
+# or
+yarn add git+https://github.com/baragaun/bg-mock-channels-data.git#branch-name
+```
+
+For example, to install from the 'develop' branch:
+```bash
+npm install baragaun/bg-mock-channels-data#develop
 ```
 
 ## Usage
